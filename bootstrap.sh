@@ -24,6 +24,9 @@ rvm use 2.1.0 --default
 gem install bundler
 bundle install
 
+vagrant plugin install vagrant-hostsupdater
+vagrant plugin install vagrant-triggers
+
 npm install -g bower
 npm install -g gulp
 npm install -g component

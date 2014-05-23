@@ -20,3 +20,5 @@ cd ~/Projects
 git c gh:vacay/file-search
 git c gh:vacay/winston
 git c gh:vacay/youtubemanager
+
+git c gh:Varying-Vagrant-Vagrants/VVV vagrant-local
