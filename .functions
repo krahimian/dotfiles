@@ -304,6 +304,15 @@ function o() {
 	fi
 }
 
+# search projects for $1 and cd into it
+function p { for f in $(ls -d ~/projects/$1*); do cd $f; break; done; }
+
+# grep for content in a file
+function g { grep -RiI --color $1 .; }
+
+# grep for a file (by name)
+function gf { find . -name "*$1*" | grep --color $1; }
+
 # `np` with an optional argument `patch`/`minor`/`major`/`<version>`
 # defaults to `patch`
 function np() {

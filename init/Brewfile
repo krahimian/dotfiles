@@ -34,7 +34,7 @@ install vim --override-system-vi
 install homebrew/dupes/grep
 install homebrew/php/php55 --with-gmp
 install emacs
-install python
+install python --framework
 
 # This formula didn’t work well last time I tried it:
 #install homebrew/dupes/screen
@@ -54,7 +54,7 @@ install git
 install hashpump
 install imagemagick --with-webp
 install lastfmfpclient
-install libpng12
+install homebrew/versions/libpng12
 install lynx
 install nmap
 install node # This installs `npm` too using the recommended installation method
