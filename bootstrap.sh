@@ -4,8 +4,13 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew bundle ~/init/Caskfile
 brew bundle ~/init/Brewfile
 
+ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+
+ln -sfv /usr/local/opt/elasticsearch/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
+
+ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 curl -L https://get.rvm.io | bash -s stable --ruby
