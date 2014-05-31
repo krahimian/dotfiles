@@ -13,6 +13,9 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
 ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
+ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist
+
 curl -L https://get.rvm.io | bash -s stable --ruby
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 rvm get head
@@ -32,6 +35,8 @@ npm install -g grunt-cli
 npm install -g grunt-init
 npm install -g nodemon
 npm install -g cordova
+npm install -g ionic
+npm install -g ios-sim
 
 pip install --upgrade --no-use-wheel pip
 pip install --upgrade --no-use-wheel setuptools

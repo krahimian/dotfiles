@@ -43,9 +43,12 @@ install python --framework
 install elasticsearch
 install mysql
 install redis
+install memcache
 
 # Install other useful binaries
 install ack
+install android-sdk
+install ant
 install cairo
 #install exiv2
 install ffmpeg
