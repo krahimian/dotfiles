@@ -16,11 +16,6 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist
 
-curl -L https://get.rvm.io | bash -s stable --ruby
-if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
-rvm get head
-rvm reload
-
 gem install bundler
 bundle install
 
