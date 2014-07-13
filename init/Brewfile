@@ -50,6 +50,7 @@ install ack
 install android-sdk
 install ant
 install cairo
+install closure-compiler
 #install exiv2
 install ffmpeg
 install foremost
@@ -57,6 +58,8 @@ install git
 install hashpump
 install imagemagick --with-webp
 install lastfmfpclient
+install libxml2
+install libxslt
 install homebrew/versions/libpng12
 install lynx
 install nmap
