@@ -32,6 +32,8 @@ npm install -g nodemon
 npm install -g cordova
 npm install -g ionic
 npm install -g ios-sim
+npm install -g hubot
+npm install -g coffee-script
 
 pip install --upgrade --no-use-wheel pip
 pip install --upgrade --no-use-wheel setuptools
