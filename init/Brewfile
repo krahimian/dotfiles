@@ -44,6 +44,7 @@ install elasticsearch
 install mysql
 install redis
 install memcache
+install couchdb
 
 # Install other useful binaries
 install ack
