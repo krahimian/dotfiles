@@ -16,6 +16,9 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist
 
+ln -sfv /usr/local/opt/couchdb/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.couchdb.plist
+
 gem install bundler
 bundle install
 
