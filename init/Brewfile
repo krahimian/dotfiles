@@ -52,6 +52,7 @@ install android-sdk
 install ant
 install cairo
 install closure-compiler
+install echoprint-codegen
 #install exiv2
 install ffmpeg
 install foremost
