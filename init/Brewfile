@@ -51,6 +51,7 @@ install ack
 install android-sdk
 install ant
 install cairo
+install chromaprint
 install closure-compiler
 install echoprint-codegen
 #install exiv2
