@@ -19,6 +19,9 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist
 ln -sfv /usr/local/opt/couchdb/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.couchdb.plist
 
+ln -sfv /usr/local/opt/rethinkdb/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.rethinkdb.plist
+
 gem install bundler
 bundle install
 

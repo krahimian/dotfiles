@@ -45,6 +45,7 @@ install mysql
 install redis
 install memcache
 install couchdb
+install rethinkdb
 
 # Install other useful binaries
 install ack
