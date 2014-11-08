@@ -17,6 +17,7 @@ cask install google-hangouts 2> /dev/null
 cask install imagealpha 2> /dev/null
 cask install imageoptim 2> /dev/null
 cask install iterm2 2> /dev/null
+cask install keepassx 2> /dev/null
 cask install livereload 2> /dev/null
 cask install miro-video-converter 2> /dev/null
 cask install node-webkit 2> /dev/null
